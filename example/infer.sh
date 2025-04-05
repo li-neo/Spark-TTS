@@ -27,7 +27,7 @@ device=0
 save_dir='example/results'
 model_dir="pretrained_models/Spark-TTS-0.5B"
 text="身临其境，换新体验。塑造开源语音合成新范式，让智能语音更自然。"
-prompt_text="吃燕窝就选燕之屋，本节目由26年专注高品质燕窝的燕之屋冠名播出。豆奶牛奶换着喝，营养更均衡，本节目由豆本豆豆奶特约播出。"
+prompt_text="大家吃好喝好啊，吃好喝好啊，阿姣吃好喝好，吃不了揣兜里"
 prompt_speech_path="example/prompt_audio.wav"
 
 # Change directory to the root directory
