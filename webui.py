@@ -247,7 +247,7 @@ def parse_arguments():
     parser.add_argument(
         "--server_port",
         type=int,
-        default=7860,
+        default=7861,
         help="Server port for Gradio app."
     )
     return parser.parse_args()
@@ -265,5 +265,6 @@ if __name__ == "__main__":
     # Launch Gradio with the specified server name and port
     demo.launch(
         server_name=args.server_name,
-        server_port=args.server_port
+        server_port=args.server_port,
+        share=True
     )
